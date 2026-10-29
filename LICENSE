@@ -1,0 +1,22 @@
+KarooStats
+Copyright (c) 2026 spotdesign81. All rights reserved.
+
+Terms of use
+
+1. You may download, install and use the KarooStats app free of charge on your own
+   Hammerhead Karoo devices.
+2. You may share the link to this page. You may not sell the app, publish modified versions of
+   it, or distribute it as part of another product without written permission.
+3. You may not decompile, reverse engineer or modify the app, except where the law allows it.
+4. The app is provided "as is", without warranty of any kind. Maintenance intervals are
+   generic guidance; always follow the instructions of your bike and component manufacturers.
+   The author is not liable for any damage arising from the use of the app.
+
+Third-party software included in the app
+
+- karoo-ext, Copyright Hammerhead Navigation Inc., licensed under the Apache License 2.0
+  (https://www.apache.org/licenses/LICENSE-2.0). Source: https://gh.ali360.cloudns.ch/hammerheadnav/karoo-ext
+- Garmin FIT SDK, Copyright Garmin International, Inc., licensed under the Flexible and
+  Interoperable Data Transfer (FIT) Protocol License (https://developer.garmin.com/fit/download/).
+- AndroidX, Jetpack Compose, Room and Kotlin libraries, licensed under the Apache License 2.0.
+- Timber, Copyright Jake Wharton, licensed under the Apache License 2.0.
